@@ -1,0 +1,13 @@
+img {
+    width: 5rem;
+    padding: 10px;
+}
+
+.left-hero {
+    background: url(./images/signupformunsplash.jpg.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+}
