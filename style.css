@@ -70,3 +70,64 @@ h1 {
 .header, .left-hero, .submit button {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+form {
+    display: flex;
+    width: 60vw;
+    flex-flow: row wrap;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+label {
+    position: relative;
+    width: 15rem;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(173, 73, 173);
+}
+
+.submit {
+    margin-top: 2rem;
+}
+
+button[type='submit'] {
+    padding: .8rem 1.3rem;
+    font-size: 1.3rem;
+    background-color: rgb(6, 98, 35);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: -1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+}
+
+button[type='submit']:hover {
+    background-color: rgb(5, 78, 28);
+}
+
+input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 224, 224);
+    font-size: .9rem;
+    margin-top: 3px;
+}
+
+input:focus {
+    border: none;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.342);
+    outline: none;
+}
+
+input:invalid:focus {
+    border: 2px solid rgb(255, 69, 100)
+}
+
+input:focus:valid {
+    border: rgb(0, 183, 255) 2px solid;
+}
+
